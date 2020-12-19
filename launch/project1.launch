@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="beginner_tutorials" name="first_int" type="first_int.py"/>
+    <node pkg="beginner_tutorials" name="second_int" type="second_int.py"/>
+    <node pkg="beginner_tutorials" name="subscriber" type="subscriber.py" output="screen" />
+</launch>
